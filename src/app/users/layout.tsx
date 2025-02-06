@@ -2,14 +2,16 @@ import React from 'react'
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'metadata'
+    title: 'UsersLayout metadata'
 }
 
 type Props = { children: React.ReactNode }
-const  = ({children}: Props) => {
+const UsersLayout = ({children}: Props) => {
     return (
         <>
-            
-            </>
+            {children}
+        </>
     )
 }
+
+export default UsersLayout;
